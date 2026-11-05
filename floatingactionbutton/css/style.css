@@ -1,0 +1,21 @@
+#floatingactionbutton-root.fab-plugin-wrap{display:block!important;position:fixed!important;inset:auto max(22px,env(safe-area-inset-right)) max(24px,env(safe-area-inset-bottom)) auto!important;z-index:2147483000!important;width:auto!important;max-width:min(320px,calc(100vw - 44px))!important;margin:0!important;padding:0!important;visibility:visible!important;opacity:1!important;transform:none!important;box-sizing:border-box!important}
+#floatingactionbutton-root .fab-plugin-button{all:initial;display:flex!important;align-items:center!important;justify-content:center!important;box-sizing:border-box!important;min-height:48px!important;padding:12px 20px!important;border:2px solid #0e3566!important;border-radius:8px!important;background:#0e3566!important;color:#fff!important;font:700 16px/1.4 system-ui,-apple-system,"Segoe UI",sans-serif!important;text-align:center!important;text-decoration:none!important;overflow-wrap:anywhere!important;white-space:normal!important;cursor:pointer!important;box-shadow:0 5px 20px #0003!important}
+#floatingactionbutton-root .fab-plugin-button:hover{background:#244f83!important;text-decoration:underline!important}
+#floatingactionbutton-root .fab-plugin-button:focus-visible{outline:3px solid #fff!important;outline-offset:3px!important;box-shadow:0 0 0 6px #0e3566!important;text-decoration:underline!important}
+@media(max-width:700px){#floatingactionbutton-root.fab-plugin-wrap{inset:auto max(12px,env(safe-area-inset-right)) max(12px,env(safe-area-inset-bottom)) max(12px,env(safe-area-inset-left))!important;max-width:none!important}}
+@media print{#floatingactionbutton-root.fab-plugin-wrap{display:none!important}}
+/* v1.2: keep hidden controls out of keyboard navigation until the threshold. */
+#floatingactionbutton-root.fab-plugin-wrap[hidden]{display:none!important}
+#floatingactionbutton-root.fab-plugin-wrap{left:50%!important;right:auto!important;transform:translateX(-50%)!important}
+#floatingactionbutton-root .fab-plugin-button{gap:10px!important}
+#floatingactionbutton-root .fab-icon{display:inline-flex!important;flex:0 0 28px!important;width:28px!important;height:30px!important}
+#floatingactionbutton-root .fab-icon svg{display:block!important;width:28px!important;height:30px!important}
+#floatingactionbutton-root .fab-icon-finger{display:none!important}
+#floatingactionbutton-root .fab-label{min-width:0!important}
+@media(max-width:700px){
+#floatingactionbutton-root.fab-plugin-wrap{left:max(12px,env(safe-area-inset-left))!important;right:max(12px,env(safe-area-inset-right))!important;transform:none!important;width:auto!important}
+#floatingactionbutton-root .fab-icon-mouse{display:none!important}
+#floatingactionbutton-root .fab-icon-finger{display:inline-flex!important;animation:fab-finger-nudge 2.5s ease-in-out 3}
+}
+@keyframes fab-finger-nudge{0%,60%,100%{transform:translateX(0)}30%{transform:translateX(4px)}}
+@media(prefers-reduced-motion:reduce){#floatingactionbutton-root .fab-icon{animation:none!important}}

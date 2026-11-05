@@ -1,0 +1,6 @@
+{
+  "plugin-data": {
+    "name": "Floating Action Button",
+    "description": "Add a floating call-to-action button to Bludit with custom text and link, separate mobile and desktop scroll settings, and automatic hiding on the linked contact page. Free and open source."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "author": "Amazing Marketing Agency .ca",
+  "email": "",
+  "website": "https://www.amazingmarketing.ca",
+  "version": "1.2.0",
+  "releaseDate": "2026-10-27",
+  "license": "MIT",
+  "compatible": "3.15.0",
+  "notes": "Free Bludit floating call-to-action plugin with separate desktop and mobile scroll thresholds and linked-page exclusion. Requires standard theme hooks and JavaScript."
+}
